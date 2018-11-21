@@ -25,7 +25,7 @@ $response['message'] = "PDfs fetched successfully.";
  
 $response['pdf'] = array();
  
-//traversing through all the rows
+//traversing through all the rowss
  
 while($row =mysqli_fetch_array($result)){
     $temp = array();
